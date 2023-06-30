@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ko">
   <head>
     <meta charset="utf-8">
 
-    <title>Number guessing game</title>
+    <title>숫자 맞추기 게임</title>
 
     <style>
       html {
@@ -29,12 +29,13 @@
   </head>
 
   <body>
-    <h1>Number guessing game</h1>
+    <h1>숫자 맞추기 게임</h1>
 
-    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+    <p>1 ~ 100 사이 랜덤 숫자가 무엇인지 맞춰보세요! <br>
+        기회는 총 10번 주어지며, 정답이 아닐 경우 입력하신 값이 정답보다 높은지 낮은지 알려드립니다!</p>
 
     <div class="form">
-      <label for="guessField">Enter a guess: </label>
+      <label for="guessField">무슨 숫자가 정답일까요? </label>
       <input type="number" min="1" max="100" required id="guessField" class="guessField">
       <input type="submit" value="Submit guess" class="guessSubmit">
     </div>
